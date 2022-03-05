@@ -1,0 +1,22 @@
+.Container {
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  background-color: #EC2127;
+  height: 50px;
+  width: 50px;
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  
+  img {
+    height: 20px
+  };
+
+  transition: 0.5s ease-in;
+
+  &:hover {
+    filter: brightness(0.8)
+  }
+}
