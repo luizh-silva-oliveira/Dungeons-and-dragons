@@ -3,7 +3,6 @@
   color: #fff;
   font-size: 16px;
   padding: 24px 0;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,6 +21,20 @@
     height: 70px;
     position: absolute;
     right: 0
+  }
+
+}
+
+@media (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */
+
+  .Container {
+    justify-content: start;
+    height: 70px;
+    font-size: 12px;
+    
+    p {
+      margin-left: 8px;
+    }
   }
 
 }

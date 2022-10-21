@@ -1,5 +1,5 @@
-import styles from './styles.module.scss';
-import logo from '../../assets/logo.png';
+import styles from "./styles.module.scss";
+import logo from "../../assets/logo.png";
 
 export function Menu() {
   return (
@@ -8,10 +8,10 @@ export function Menu() {
 
       <nav className={styles.NavContainer}>
         <ul>
-          <a>Universo</a>
-          <a>Livros</a>
+          <a href="#Multiverse">Universo</a>
+          <a href="#ContentsGame">Livros</a>
         </ul>
       </nav>
     </header>
-  )
+  );
 }

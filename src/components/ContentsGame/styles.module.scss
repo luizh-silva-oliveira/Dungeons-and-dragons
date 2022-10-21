@@ -31,3 +31,21 @@
     }
   }
 }
+
+@media (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */
+
+  .Content {
+    width: calc(100% - 60px);
+    margin: 0 30px;
+  
+  li {
+    margin-bottom: 32px;
+  }
+
+  a {
+    font-size: 80%;
+    padding: 0 12px;
+  }
+  
+  }
+}
