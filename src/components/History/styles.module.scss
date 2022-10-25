@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 40px;
-  
+
   h1 {
     font-size: 40px;
     text-transform: uppercase;
@@ -15,6 +15,15 @@
     font-size: 26px;
     padding-bottom: 16px;
     border-bottom: 1px solid #fff
+  }
+
+}
+
+@media (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */
+
+  .Content {
+    width: calc(100% - 60px);
+    margin: 0 30px;
   }
 
 }

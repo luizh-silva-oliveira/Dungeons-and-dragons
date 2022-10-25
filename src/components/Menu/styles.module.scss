@@ -10,6 +10,17 @@
     height: 45px;
   }
 }
+@media (max-width:640px)  { /* smartphones, Android phones, landscape iPhone */
+  .Container {
+    width: 100vw;
+    padding: 0 10px;
+
+    img{
+      height: 28px;
+    }
+  }
+
+}
 
 .NavContainer {
 

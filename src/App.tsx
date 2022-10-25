@@ -1,26 +1,24 @@
-import { History } from './components/History';
+import { History } from "./components/History";
 
-import './styles/global.scss';
+import "./styles/global.scss";
 
-import { Menu } from './components/Menu';
-import { Multiverse } from './components/Multiverse';
-import { ContentsGame } from './components/ContentsGame';
-import { Footer } from './components/Footer';
-import { GoTop } from './components/GoTop';
+import { Menu } from "./components/Menu";
+import { Multiverse } from "./components/Multiverse";
+import { ContentsGame } from "./components/ContentsGame";
+import { Footer } from "./components/Footer";
+import { GoTop } from "./components/GoTop";
 
 function App() {
-
   return (
     <>
       <Menu />
       <History />
-      <Multiverse/>
-      <ContentsGame/>
+      <Multiverse />
+      <ContentsGame />
       <Footer />
       <GoTop />
     </>
-
-  )
+  );
 }
 
-export default App
+export default App;

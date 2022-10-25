@@ -19,3 +19,11 @@
   }
 
 }
+@media (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */
+
+  .Content {
+    width: calc(100% - 60px);
+    margin: 0 30px;
+  }
+
+}
