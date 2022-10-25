@@ -13,7 +13,7 @@ Tecnologias utilizada no projeto:
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" alt="imagem" width="70"> &nbsp;
 
 ## 💻 Projeto
-#### O projeto consiste em uma adaptação de uma aplicação criada pelo meu amigo @thalesluiz45 feita com HTML e CSS para Reactjs.
+#### O projeto consiste em uma adaptação de uma aplicação criada pelo meu amigo <a href="https://github.com/thalesluiz45">@thalesluiz45</a> feita com HTML e CSS para Reactjs.
   
 ## 🔍 Layout
 
